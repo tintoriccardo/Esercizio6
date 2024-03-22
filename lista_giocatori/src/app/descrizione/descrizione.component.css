@@ -1,0 +1,46 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.description {
+    flex: 1;
+    padding: 20px;
+}
+.description h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.description p {
+    font-size: 16px;
+    line-height: 1.6;
+
+}
+.image {
+    flex: 1;
+    text-align: center;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@font-face {
+    
+    src: url('/lista_giocatori/src/assets/font/HitmarkerText-Bold.ttf');
+    font-family: 'Call',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+P{
+    font-family: 'Call', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(6, 66, 20);
+}
+
+h1{
+    font-family:'call',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(7, 81, 56);
+}
+
