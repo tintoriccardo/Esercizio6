@@ -28,7 +28,7 @@ export class TeamComponent {
     { nome: 'SUBLINERS',coloreNome: 'yellow', vittorie: 2,regione: 'New York', creazione: '2020',  foto: 'https://images.blz-contentstack.com/v3/assets/blta7b34f1f894a2422/blte1e43ca5d7d1bab2/64adbb863b801dd8dfc53491/nysl_logo_alternate_padding-01.svg?auto=webp',link:'https://subliners.callofdutyleague.com/en-us/'},
 
   ]
-  pagina(url: any) {
+  collegamenti(url: any) {
     location.href = url;
   }
 }

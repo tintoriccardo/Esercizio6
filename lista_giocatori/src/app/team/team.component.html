@@ -3,24 +3,24 @@
 <link href="https://fonts.cdnfonts.com/css/pricedown" rel="stylesheet">
 
 <div class="container">
-    <div class="card-container">
-        <div class="card text-white mb-6"*ngFor="let giocatore of giocatori">
-            <div class="card-body">
-                <div class="row no-gutters">
-                    <div class="col-md-4" id="immagine-personaggio">
-                        <img src="{{giocatore.foto}}" class="card-img">
-                    </div>
-                    <div class="col-md-8">
-                        <h3 class="card-title" [ngStyle]="{ color: giocatore.coloreNome }">{{giocatore.nome}}</h3>
+<div class="card-container">
+<div class="card text-white mb-6" *ngFor="let giocatore of giocatori">
+<div class="card-body">
+<div class="row no-gutters">
+<div class="col-md-4" id="immagine-personaggio">
+<img src="{{giocatore.foto}}" class="card-img">
+</div>
+<div class="col-md-8">
+ <h3 class="card-title" [ngStyle]="{ color: giocatore.coloreNome }">{{giocatore.nome}}</h3>
 
-                        <h4>vittorie: <strong>{{giocatore.vittorie}}</strong></h4>
-                        <h4>Regione: <strong>{{giocatore.regione}}</strong></h4>
-                        <h4>creazione: <strong>{{giocatore.creazione}}</strong></h4>
-                        <button (click)="pagina(giocatore.link)"class="bottone">info</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<h4>vittorie: <strong>{{giocatore.vittorie}}</strong></h4>
+<h4>Regione: <strong>{{giocatore.regione}}</strong></h4>
+<h4>creazione: <strong>{{giocatore.creazione}}</strong></h4>
+<button (click)="collegamenti(giocatore.link)"class="bottone">info</button>
+</div>
+</div>
+</div>
+ </div>
+</div>
 </div>
 
